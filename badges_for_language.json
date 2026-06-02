@@ -75,7 +75,7 @@
       "tagColor": "#FFBE01",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#FFBE01"
     },
     {
@@ -88,7 +88,7 @@
       "tagColor": "#FF6904",
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#FF6904"
     },
     {
@@ -101,7 +101,7 @@
       "tagColor": "#FB411C",
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#FB411C"
     },
     {
@@ -179,7 +179,7 @@
       "tagColor": "#FFBE01",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#FFBE01"
     },
     {
@@ -208,7 +208,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-     {
+    {
       "borderColor": "#FFFFFF",
       "groupId": "ga",
       "id": "a-th",
@@ -247,7 +247,6 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-   
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -352,7 +351,6 @@
       "textColor": "#0e0e0e",
       "type": "filter"
     },
-  
     {
       "borderColor": "#FFFFFF",
       "groupId": "gc",
@@ -376,7 +374,7 @@
       "tagColor": "#FFFFFF",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#FFFFFF"
     },
     {
@@ -393,42 +391,42 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00D2FF",
+      "borderColor": "#00000000",
       "groupId": "gl",
       "id": "l-ptbr",
       "imageURL": "",
       "isEnabled": true,
       "name": "🇧🇷 PT-BR",
       "pattern": "(?i)\\b(?:pt[-_. ]?br|br[-_. ]?pt|portugues[-_. ]?br(?:asilerio)?|dublado|pt)\\b",
-      "tagColor": "#00D2FF",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
+      "textColor": "#80FFFFFF",
       "type": "filter"
     },
     {
-      "borderColor": "#FF4B4B",
+      "borderColor": "#00000000",
       "groupId": "gl",
-      "id": "l-en",
+      "id": "l-en-us",
       "imageURL": "",
       "isEnabled": true,
       "name": "🇬🇧 ENG",
       "pattern": "(?i)\\b(?:english|eng|en|legendado|subbed|multi[-_. ]?subs?)\\b",
-      "tagColor": "#FF4B4B",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
+      "textColor": "#80FFFFFF",
       "type": "filter"
     },
     {
-      "borderColor": "#FFD700",
+      "borderColor": "#00000000",
       "groupId": "gl",
       "id": "l-multi",
       "imageURL": "",
       "isEnabled": true,
       "name": "🌐 MULTI",
       "pattern": "(?i)\\b(?:multi|dual[-_. ]?audio|dual|triple[-_. ]?audio)\\b",
-      "tagColor": "#FFD700",
+      "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
-      "textColor": "#000000",
+      "textColor": "#80FFFFFF",
       "type": "filter"
     },
     {
