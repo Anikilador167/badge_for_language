@@ -42,7 +42,7 @@
     {
       "borderColor": "#FF00FF37",
       "groupId": "gq",
-      "id": "q-w-rip",
+      "id": "q-w",
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images/---webrip.png",
       "isEnabled": true,
       "name": "WebRip",
@@ -66,7 +66,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFBE01",
       "groupId": "gr",
       "id": "r-4k",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/4k.png",
@@ -77,9 +76,9 @@
       "tagStyle": "filled",
       "textColor": "#FFBE01",
       "type": "filter"
+      "borderColor": "#FFBE01"
     },
     {
-      "borderColor": "#FF6904",
       "groupId": "gr",
       "id": "r-1080",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/1080p.png",
@@ -90,9 +89,9 @@
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
       "type": "filter"
+      "borderColor": "#FF6904"
     },
     {
-      "borderColor": "#FB411C",
       "groupId": "gr",
       "id": "r-720",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/720p.png",
@@ -103,6 +102,7 @@
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
       "type": "filter"
+      "borderColor": "#FB411C"
     },
     {
       "borderColor": "#FFBE01",
@@ -170,7 +170,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFBE01",
       "groupId": "gv",
       "id": "v-imax",
       "imageURL": "https://github.com/nobnobz/Omni-Template-Bot-Bid-Raiser/blob/main/Other/regex%20tags/IMAXv2.PNG?raw=true",
@@ -181,6 +180,7 @@
       "tagStyle": "filled",
       "textColor": "#FFBE01",
       "type": "filter"
+      "borderColor": "#FFBE01"
     },
     {
       "borderColor": "#00000000",
@@ -208,7 +208,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-    {
+     {
       "borderColor": "#FFFFFF",
       "groupId": "ga",
       "id": "a-th",
@@ -247,6 +247,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
+   
     {
       "borderColor": "#00000000",
       "groupId": "ga",
@@ -351,6 +352,7 @@
       "textColor": "#0e0e0e",
       "type": "filter"
     },
+  
     {
       "borderColor": "#FFFFFF",
       "groupId": "gc",
@@ -365,7 +367,6 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFFFFF",
       "groupId": "gc",
       "id": "ch-61",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/regex%20tags/61.png",
@@ -376,6 +377,7 @@
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
       "type": "filter"
+      "borderColor": "#FFFFFF"
     },
     {
       "borderColor": "#FFFFFF",
@@ -406,7 +408,7 @@
     {
       "borderColor": "#FF4B4B",
       "groupId": "gl",
-      "id": "l-en-us",
+      "id": "l-en",
       "imageURL": "",
       "isEnabled": true,
       "name": "🇬🇧 ENG",
@@ -435,8 +437,8 @@
       "id": "l-es",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇪🇸 ESP",
-      "pattern": "(?i)\\bspanish\\b|\\bspa\\b|\\bes\\b",
+      "name": "🇪🇸",
+      "pattern": "(?i)\\bspanish\\b|\\bspa\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
@@ -448,7 +450,7 @@
       "id": "l-fr",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇫🇷 FRA",
+      "name": "🇫🇷",
       "pattern": "(?i)\\bfrench\\b|\\bfra\\b|\\bfr\\b|\\bvff\\b|\\bvfq\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
@@ -461,8 +463,8 @@
       "id": "l-de",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇩🇪 DEU",
-      "pattern": "(?i)\\bgerman\\b|\\bdeu\\b|\\bger\\b",
+      "name": "🇩🇪",
+      "pattern": "(?i)\\bgerman\\b|\\bdeu\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
@@ -474,8 +476,21 @@
       "id": "l-it",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇮🇹 ITA",
-      "pattern": "(?i)\\bitalian\\b|\\bita\\b|\\bit\\b",
+      "name": "🇮🇹",
+      "pattern": "(?i)\\bitalian\\b|\\bita\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-pt",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇧🇷",
+      "pattern": "(?i)\\bportuguese\\b|\\bpor\\b",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
@@ -487,8 +502,8 @@
       "id": "l-ja",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇯🇵 JPN",
-      "pattern": "(?i)\\bjapanese\\b|\\bjpn\\b|\\bja\\b|[぀-ゟ゠-ヿ]{3,}",
+      "name": "🇯🇵",
+      "pattern": "(?i)\\bjapanese\\b|\\bjpn\\b|[぀-ゟ゠-ヿ]{3,}",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
@@ -500,8 +515,8 @@
       "id": "l-ko",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇰🇷 KOR",
-      "pattern": "(?i)\\bkorean\\b|\\bkor\\b|\\bko\\b|[가-힯]{3,}",
+      "name": "🇰🇷",
+      "pattern": "(?i)\\bkorean\\b|\\bkor\\b|[가-힯]{3,}",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
@@ -513,8 +528,47 @@
       "id": "l-zh",
       "imageURL": "",
       "isEnabled": true,
-      "name": "🇨🇳 CHN",
-      "pattern": "(?i)\\bchinese\\b|\\bchi\\b|\\bzh\\b|[一-鿿]{3,}",
+      "name": "🇨🇳",
+      "pattern": "(?i)\\bchinese\\b|\\bchi\\b|[一-鿿]{3,}",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-hi",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇮🇳",
+      "pattern": "(?i)\\bhindi\\b|\\bhin\\b|[ऀ-ॿ]{3,}",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-ar",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇸🇦",
+      "pattern": "(?i)\\barabic\\b|\\bara\\b|[؀-ۿ]{3,}",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#80FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gl",
+      "id": "l-ru",
+      "imageURL": "",
+      "isEnabled": true,
+      "name": "🇷🇺",
+      "pattern": "(?i)\\brussian\\b|\\brus\\b|[Ѐ-ӿ]{3,}",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
