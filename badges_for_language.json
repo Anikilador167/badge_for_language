@@ -397,7 +397,7 @@
       "imageURL": "https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/flags/4x3/br.svg",
       "isEnabled": true,
       "name": "🇧🇷 PT-BR",
-      "pattern": "(?i)\\b(?:pt[-_. ]?br|br[-_. ]?pt|portugues[-_. ]?br(?:asilerio)?|dublado|pt)\\b",
+      "pattern": "(?i)(pt-br|br-pt|portugues|português|dublado|pt|br)",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
       "textColor": "#80FFFFFF",
